@@ -58,5 +58,5 @@ class BookParser:
         classes = star_rating_tag.attrs['class']
         rating_classes = [r for r in classes if r != 'star-rating']
         rating_number = BookParser.RATING.get(rating_classes[0])
-        logger.debug(f'Found book name, `{item_name}`')
+        logger.debug(f'Found book name, `{rating_number}`')
         return rating_number
