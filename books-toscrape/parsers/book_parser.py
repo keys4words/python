@@ -47,8 +47,9 @@ class BookParser:
         item_price = self.parent.select_one(locator).string
         pattern = '£([0-9]+\.[0-9]+)'
         matcher = re.search(pattern, item_price)
-        logger.debug(f'Found book price, `{matcher.group(1)}`')
-        return float(matcher.group(1))
+        float_price = float(matcher.group(1))
+        logger.debug(f'Found book price, `{float_price}`')
+        return float(float_price)
 
     @property
     def rating(self):
@@ -58,5 +59,5 @@ class BookParser:
         classes = star_rating_tag.attrs['class']
         rating_classes = [r for r in classes if r != 'star-rating']
         rating_number = BookParser.RATING.get(rating_classes[0])
-        logger.debug(f'Found book name, `{rating_number}`')
+        logger.info(f'Found book rating, `{rating_number}`')
         return rating_number
