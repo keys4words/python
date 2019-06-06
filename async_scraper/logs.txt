@@ -1,0 +1,6 @@
+06-06-2019 11:03:14 INFO     [app.py:17] Loading books list.
+06-06-2019 11:03:15 INFO     [all_books_page.py:24] Found number of catalogue pages available: `
+            
+                Page 1 of 50
+            
+            `
