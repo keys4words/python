@@ -2,29 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70a8ab47-1551-4be7-89df-810b4aec56cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/class_physic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file_operations.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freq_word.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/import_modules.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mohami/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mohami/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mohami/converters/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mohami/ecommerce/m_excel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mohami/ecommerce/transactions.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mohami/folders.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mohami/m_classes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mohami/m_functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mohami/mohami_home.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mohami/my_comments.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mohami/my_exception.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mohami/my_inheritance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mohami/random_module.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mohami/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/show_args_quan.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/standard_file_reading.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/words.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/socratica/fibonacci_with_decorator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/socratica/fibonacci_with_memoization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/socratica/simple_fibonacci.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stepikWebTech/find_server_name.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,51 +15,30 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mohami/random_module.py">
+        <entry file="file://$PROJECT_DIR$/socratica/simple_fibonacci.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+            <state relative-caret-position="153">
+              <caret line="9" column="31" lean-forward="true" selection-end-line="9" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mohami/folders.py">
+        <entry file="file://$PROJECT_DIR$/socratica/fibonacci_with_memoization.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mohami/ecommerce/m_excel.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="221">
+              <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/class_physic.py">
+        <entry file="file://$PROJECT_DIR$/socratica/fibonacci_with_decorator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="4" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/openpyxl/chart/_chart.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2210">
-              <caret line="158" column="68" selection-start-line="158" selection-start-column="29" selection-end-line="158" selection-end-column="68" />
+            <state relative-caret-position="278">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -140,14 +100,18 @@
         <option value="$PROJECT_DIR$/mohami/folders.py" />
         <option value="$PROJECT_DIR$/mohami/ecommerce/m_excel.py" />
         <option value="$PROJECT_DIR$/class_physic.py" />
+        <option value="$PROJECT_DIR$/stepikWebTech/find_server_name.py" />
+        <option value="$PROJECT_DIR$/socratica/fibonacci_with_memoization.py" />
+        <option value="$PROJECT_DIR$/socratica/simple_fibonacci.py" />
+        <option value="$PROJECT_DIR$/socratica/fibonacci_with_decorator.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="539" />
-    <option name="y" value="151" />
+    <option name="x" value="472" />
+    <option name="y" value="158" />
     <option name="width" value="802" />
-    <option name="height" value="580" />
+    <option name="height" value="578" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -157,6 +121,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -164,11 +129,15 @@
               <item name="teclado_flow" type="b2602c69:ProjectViewProjectNode" />
               <item name="teclado_flow" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="teclado_flow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="teclado_flow" type="462c0819:PsiDirectoryNode" />
+              <item name="socratica" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -198,7 +167,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.class_physic">
+  <component name="RunManager" selected="Python.fibonacci_with_decorator">
     <configuration name="class_physic" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="teclado_flow" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -220,7 +189,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="folders" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="fibonacci_with_decorator" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="teclado_flow" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -228,11 +197,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mohami" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/socratica" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mohami/folders.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/socratica/fibonacci_with_decorator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -241,7 +210,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="m_excel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="fibonacci_with_memoization" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="teclado_flow" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -249,11 +218,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mohami/ecommerce" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/socratica" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mohami/ecommerce/m_excel.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/socratica/fibonacci_with_memoization.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -262,7 +231,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="m_functions" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="find_server_name" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="teclado_flow" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -270,11 +239,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mohami" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stepikWebTech" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mohami/m_functions.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stepikWebTech/find_server_name.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -283,7 +252,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="random_module" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="simple_fibonacci" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="teclado_flow" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -291,11 +260,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mohami" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/socratica" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mohami/random_module.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/socratica/simple_fibonacci.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -306,11 +275,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.fibonacci_with_decorator" />
+        <item itemvalue="Python.fibonacci_with_memoization" />
+        <item itemvalue="Python.simple_fibonacci" />
+        <item itemvalue="Python.find_server_name" />
         <item itemvalue="Python.class_physic" />
-        <item itemvalue="Python.m_excel" />
-        <item itemvalue="Python.folders" />
-        <item itemvalue="Python.random_module" />
-        <item itemvalue="Python.m_functions" />
       </list>
     </recent_temporary>
   </component>
@@ -328,15 +297,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="539" y="151" width="802" height="580" extended-state="0" />
+    <frame x="472" y="158" width="802" height="578" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2460733" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.59731543" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5955056" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39938557" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -611,13 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mohami/random_module.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mohami/folders.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -625,16 +587,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/openpyxl/chart/_chart.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2210">
-          <caret line="158" column="68" selection-start-line="158" selection-start-column="29" selection-end-line="158" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mohami/ecommerce/m_excel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="391">
           <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
@@ -646,6 +601,48 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stepikWebTech/find_server_name.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mohami/random_module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/openpyxl/chart/_chart.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="158" column="68" selection-start-line="158" selection-start-column="29" selection-end-line="158" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/socratica/simple_fibonacci.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="31" lean-forward="true" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/socratica/fibonacci_with_memoization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/socratica/fibonacci_with_decorator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
