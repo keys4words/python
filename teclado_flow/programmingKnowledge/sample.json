@@ -1,0 +1,13 @@
+{
+  "name": "Mark",
+  "surname": "sir",
+  "age": 43,
+  "address": {
+    "city": "London",
+    "street": "Baker",
+    "zip": 145343
+  },
+  "phone": [1434535, 3453453, 5555555],
+  "single": true,
+  "skill": null
+}
