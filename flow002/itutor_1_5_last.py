@@ -1,0 +1,5 @@
+s=input()
+l=input()
+l_first=s.find(l)
+l_second=s.find(l, l_first+1)
+print(l_second)

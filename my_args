@@ -1,0 +1,4 @@
+import sys
+for i in sys.argv:
+    if i!='sys_args.py':
+        print(i)
