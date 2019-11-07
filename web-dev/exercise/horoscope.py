@@ -1,8 +1,8 @@
 import random
 
-times = ["Утром", "Днём", "Вечером", "Ночью"]
+times = ["Утром", "Днём", "После обеда", "Ночью"]
 advices = ["ожидайте", "предостерегайтесь", "будьте открыты для"]
-promises = ["гостей", "встреч", "неожиданного праздника"]
+promises = ["гостей из забытого прошлого.", "приятных перемен.", "встреч со старыми знакомыми."]
 
 def generate_prophecies(total_num=5, num_sentences=3):
     prophecies = []
@@ -26,8 +26,4 @@ def generate_prophecies(total_num=5, num_sentences=3):
     return prophecies
 
 
-def generate_body(header, paragraph):
-    body = "<h1>" + header + "</h1>"
-    for p in paragraph:
-        body += "<p>" + p + "</p>"
-    return "<body>" + body + "</body>"
+# print(generate_prophecies())
