@@ -12,7 +12,7 @@ class UsersDB:
 
     def __init__(self):
         if UsersDB.__instance is not None:
-            raise Exception("You're doing it wrong, don't do it!")
+            raise Exception("You're doing it wrong, don't do it")
         else:
             self.con = sqlite3.connect(":memory:", detect_types=sqlite3.PARSE_DECLTYPES)
             self.init_db()
@@ -22,7 +22,7 @@ class UsersDB:
         with self.con:
             cur = self.con.cursor()
             cur.execute(
-                "CREATE TABLE Users(Id INTEGER PRIMARY_KEY, username TEXT, last_seen timestamp) "
+                "CREATE TABLE Users(Id INTEGER PRIMARY_KEY, username TEXT, last_seen timestamp)"
             )
             n = dt.now()
             for i, (u, t) in enumerate(
@@ -36,6 +36,7 @@ class UsersDB:
                     ("sarah.connor", n.replace(month=1, day=2)),
                     ("andrey3", n.replace(month=4, day=21)),
                     ("alexei22", n.replace(month=2, day=17)),
+
                 ],
                 start=100,
             ):
@@ -46,6 +47,7 @@ class UsersDB:
                 t = t.replace(hour=h, minute=m, second=s, microsecond=us)
                 cur.execute("INSERT INTO Users values(?, ?, ?)", (i, u, t))
 
+
 def list_users():
     users = UsersDB.get_instance()
     known_users = []
@@ -53,13 +55,12 @@ def list_users():
         cur = users.con.cursor()
         cur.execute("SELECT username, last_seen FROM Users")
         known_users = cur.fetchall()
-    return known_users
+    return known_users #[(u, t) for _, u, t in known_users]
 
 def query_user_last_seen(username):
     users = UsersDB.get_instance()
     with users.con:
         cur = users.con.cursor()
         cur.execute("SELECT last_seen FROM Users where username=?", (username,))
-        res = cur.fetchone()
-    return res[0] if (res and len(res) > 0) else dt.now()
-
+        results = cur.fetchone()
+    return results[0] if (results and len(results) > 0) else dt.now()
