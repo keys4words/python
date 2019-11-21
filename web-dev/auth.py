@@ -1,6 +1,6 @@
 import time
 
-def get_email_from_user(attempts=5, sleep_duration=15):
+def get_email_from_user(attempts=3, sleep_duration=10):
     email = input('Enter your email: ')
     i = 1
 

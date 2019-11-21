@@ -1,0 +1,26 @@
+body {
+    background: purple;
+    color: white;
+}
+
+a {
+    color: grey;
+}
+
+h1{
+    color: black;
+    font-size: 2em;
+    font-family: sans-serif;
+}
+
+.indent{
+    margin-left: 20px;
+}
+
+a:hover{
+    color: white;
+}
+
+.my_span{
+    font-weight: bold;
+}
