@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70a8ab47-1551-4be7-89df-810b4aec56cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/programmingKnowledge/debugger/55.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programmingKnowledge/overloading.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/teclado_flow.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/teclado_flow.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -32,7 +30,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -58,8 +56,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.overloading">
-    <configuration name="decorators" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.w4myself_parsing">
+    <configuration name="class01" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="teclado_flow" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -67,11 +65,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/programmingKnowledge" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop_w4myself" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/programmingKnowledge/decorators.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop_w4myself/class01.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -80,7 +78,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="generators_tutor" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="w4myself_errors" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="teclado_flow" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -88,11 +86,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/programmingKnowledge" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/programmingKnowledge/generators_tutor.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/w4myself_errors.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -101,7 +99,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lambda" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="w4myself_parsing" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="teclado_flow" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -109,11 +107,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/programmingKnowledge" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/programmingKnowledge/lambda.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/w4myself_parsing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -122,7 +120,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="nested_functions" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="w4myself_working_with_files" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="teclado_flow" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -130,11 +128,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/programmingKnowledge" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/programmingKnowledge/nested_functions.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/w4myself_working_with_files.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,7 +141,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="overloading" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="w4myself_working_with_folders" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="teclado_flow" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -151,11 +149,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/programmingKnowledge" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/programmingKnowledge/overloading.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/w4myself_working_with_folders.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -166,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.overloading" />
-        <item itemvalue="Python.decorators" />
-        <item itemvalue="Python.nested_functions" />
-        <item itemvalue="Python.lambda" />
-        <item itemvalue="Python.generators_tutor" />
+        <item itemvalue="Python.w4myself_parsing" />
+        <item itemvalue="Python.class01" />
+        <item itemvalue="Python.w4myself_errors" />
+        <item itemvalue="Python.w4myself_working_with_files" />
+        <item itemvalue="Python.w4myself_working_with_folders" />
       </list>
     </recent_temporary>
   </component>
@@ -185,6 +183,14 @@
       <option name="presentableId" value="Default" />
       <updated>1558276175562</updated>
     </task>
+    <task id="LOCAL-00001" summary="add web4myself practice">
+      <created>1574342870704</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574342870704</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -199,5 +205,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add web4myself practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="add web4myself practice" />
   </component>
 </project>
