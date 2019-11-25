@@ -1,9 +1,9 @@
 class Person:
     # name = "John"
 
-    def __init__(self, name):
+    def __init__(self, name, age=20):
         self.name = name
-        self.__age = 20
+        self.__age = age
 
     # def get_age(self):
     #     return self.__age
@@ -27,3 +27,20 @@ class Person:
 
     def print_info(self):
         print(f'Name: {self.name}, Age: {self.__age}')
+
+
+
+class Employee(Person):
+    def __init__(self, name, age, company):
+        super().__init__(name, age)
+        self.company = company
+
+    def print_info(self):
+        super().print_info()
+        print(f'Work: {self.company}')
+
+    def more_info(self):
+        print(f'Name: {self.name} works in {self.company}')
+
+    def __str__(self):
+        return f'Name: {self.name} works in {self.company}'
