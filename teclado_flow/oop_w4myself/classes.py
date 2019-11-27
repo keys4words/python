@@ -39,8 +39,5 @@ class Employee(Person):
         super().print_info()
         print(f'Work: {self.company}')
 
-    def more_info(self):
-        print(f'Name: {self.name} works in {self.company}')
-
     def __str__(self):
         return f'Name: {self.name} works in {self.company}'
