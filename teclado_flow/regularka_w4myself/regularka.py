@@ -33,7 +33,7 @@ test string'''
 # pattern = r'a\\b\tc'
 
 def validate_email(email):
-    return re.match(r'^.+@(\w+\.){0,2}[a-z]{2,6}$', email, re.IGNORECASE)
+    return bool(re.match(r'^.+@(\w+\.){0,2}[a-z]{2,6}$', email, re.IGNORECASE))
 
 # pattern = r'^\w+'
 # print(re.findall(pattern, s, flags=re.IGNORECASE))
