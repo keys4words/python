@@ -11,17 +11,45 @@ def area_of_circle(radius):
 
 
 def area_of_disc(outer, inner):
+    '''
+    Return area of disk
+    :param outer: outer radius
+    :param inner: inner radius
+    :return: area
+    '''
     return area_of_circle(outer)-area_of_circle(inner)
 
 
 print(area_of_disc(10, 3))
 
-x = 10
-def fn(x):
-    print(x)
-    x = 20
-    print(x)
+# x = 10
+# def fn():
+#     global x
+#     print(x)
+#     x = 20
+#     print(x)
+#
+# print(x)
+# fn()
+# print(x)
 
-print(x)
-fn(0)
-print(x)
+def fn(a, b=2, c=3):
+    pass
+
+fn(c=30, a=10)
+
+
+def fun(*params):
+    # print(type(params))
+    for el in params:
+        print(el, end=' ')
+
+fun(1,2, 3, 5, 'a')
+print()
+print('*'*12)
+
+def fun2(**varags):
+    for k, v in varags.items():
+        print(k, v)
+
+fun2(John=24, Pete=44)
