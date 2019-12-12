@@ -1,7 +1,7 @@
 from tkinter import *
 
 def add_str():
-    e.insert(END, 'some text')
+    e.insert(END, e.get())
 
 def del_str():
     e.delete(0, END)
@@ -32,5 +32,6 @@ btn_add = Button(root, text="Get", command=get_str).pack()
 
 l2 = Label(root, bg='blue', fg='white')
 l2.pack(fill=X)
+
 
 root.mainloop()
