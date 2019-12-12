@@ -53,3 +53,16 @@ def fun2(**varags):
         print(k, v)
 
 fun2(John=24, Pete=44)
+
+print('*'*12)
+def func_outer():
+    x = 2
+    print('x equals', x)
+
+    def func_inner():
+        nonlocal x
+        x = 5
+    func_inner()
+    print('Local x changed into', x)
+
+func_outer()
