@@ -42,3 +42,29 @@ inc_and_double = compose(inc, double)
 inc_and_double2 = lambda x: inc(double(x))
 
 print(inc_and_double(3), inc_and_double2(3))
+
+#return func as result
+def add(x):
+    def ret(y):
+        return y + x
+    return ret
+
+def add2(x):
+    return lambda y: x + y
+
+a1 = add(10)
+a2 = add2(10)
+print(a1(3), a2(3))
+
+def setup(lst):
+    i=0
+    def ret():
+        nonlocal i
+        v = lst[i]
+        i+=1
+        return v
+    return ret
+
+next_val = setup([1, 2, 3, 4, 5])
+for i in range(5):
+    print(next_val())
