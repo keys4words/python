@@ -1,7 +1,9 @@
 class Lamp:
+    count = 0
     def __init__(self, floor=0):
         self.__state = False
         self.__floor = floor
+        Lamp.count += 1
     def switch_on(self):
         if not self.state:
             print('lamp ON')
@@ -38,3 +40,7 @@ l1.switch_on()
 l1.switch_off()
 print(l2.state, l1.floor)
 print(l3)
+l4 = Lamp(1)
+
+print(Lamp.count)
+print(l2.__class__)

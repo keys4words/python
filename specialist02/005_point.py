@@ -33,3 +33,11 @@ class Point:
         self.__y = y
 
 
+
+p1 = Point(10, 20)
+print(p1)
+print(p1.x)
+prop = getattr(Point, 'x')
+print(prop.fset)
+
+
